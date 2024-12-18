@@ -21,6 +21,11 @@ format:
 ## The institute
 
 
+* Supervision: Conducted by the "Epigenetic Regulations" team at the Institute for Advanced Biosciences in Grenoble.
+* Expertise: Focus on epigenetic mechanisms, particularly their role in diseases like cancer.
+* Impact: Significant contributions to personalized medicine through advanced bioinformatics and multi-omics analyses.
+
+
 
 
 ## Project Goal  and stakeholders
@@ -28,16 +33,34 @@ format:
 
 
 
-## What is Epigenetics ?
-![](images/1.png){.r-stretch fig-align="center"}
+## What is Epigenetics? {.smaller transition="slide" transition-speed="slow"}
 
-## What is Epigenetics ?
-![](images/2.png){.r-stretch fig-align="center"}
+<img src="images/1.png" style="float: right">
 
-## What is Epigenetics ?
-![](images/3.png){.r-stretch fig-align="center"}
+**Gene Expression Without DNA Changes**
+
+- Study of how genes are turned on or off without altering the DNA sequence.
+
+
+---
+
+## The diversity of cell types and functions in complex organisms {.smaller transition="slide" transition-speed="slow"}
+
+<img src="images/2.png" style="float: right">
+
+**Examples of Epigenetic Regulation**
+
+- Differences between brain and skin cells despite identical DNA.  
+
+## How epigenetics works {.smaller transition="slide" transition-speed="slow"}
+
+<img src="images/3.png" style="float: right">
+
+
+
 
 ## Influence of cancer in genes expression
+
 
 
 
@@ -60,6 +83,32 @@ format:
 
 
 ## Genes mutation analyses
+
+## Mutation data {.smaller transition="slide" transition-speed="slow"}
+* Objective: Identify microsatellite instability (MSI) through mutation analysis.
+<img src="images/donner_mutation.png" style="float: right">
+
+
+
+## Distribution MSI/MSS {.smaller transition="slide" transition-speed="slow"}
+
+<img src="images/distribution_msi_mss.png" style="float: right">
+
+**Identify MSI samples**
+
+## Results of cox test {.smaller transition="slide" transition-speed="slow"}
+
+**HR and p-value**
+* MSI Hazard Ratio (HR): ~0.80 (20% lower risk of death for MSI patients).
+* Result not statistically significant, requiring larger sample sizes for confirmation.
+
+![](images/resultats_test_cox_mutation.png)
+
+## Survival curves for MSI/MSS {.smaller transition="slide" transition-speed="slow"}
+
+<img src="images/curves_msi_mss.png" style="float: center">
+
+
 
 
 
@@ -90,7 +139,7 @@ format:
 
 ## Team Collaboration
 
-
+![](images/trello.png)
 
 
 ## Conclusion
