@@ -30,7 +30,14 @@ format:
 
 
 ## Project Goal and stakeholders
-![](images/0.png){.r-stretch fig-align="center"}
+
+- Define survival predicion based on GEC Score.
+- Find a way to assist doctors in creating tools to personalized treatment plans that go beyond just the cancer's stage of development.
+- The project will benefits both doctors and patients.
+
+![](images/stage_of_developpment.png){.absolute left=0 width="500" height="300"}
+![](images/steackholders.png){.absolute right=0 width="500" height="300"}
+
 
 
 
@@ -69,10 +76,28 @@ tumor, end ??
 ![](images/epi_cancer_2.jpg){.r-stretch fig-align="center"}
 
 
+## Survival curve (Kaplan Meier)
+
+- Represents the probability of an event, the death in our case
+- Each step represents one death
+- One cross represents a "censored data"
+
+![](images/survival_curve_explaination1.png){.absolute left=0 width="400" height="400"}
+![](images/survival_curve_explaination2.png){.absolute right=0 width="400" height="400"}
+
+
+## Log-rank test 
+
+- Used to compare two or more survival curves
+- Only applicable if the censoring of data is independent of the "death" event and if survival curves don't cross each other
+
+![](images/logrank_curve.png){.r-stretch fig-align="center"}
+
 ## Gene Expression Classifier (GEC)
 
+- GEC score in our case ranges from 0 to 4
 
-
+![](images/exemple_GEC_curve.png){.r-stretch fig-align="center"}
 
 ## Dataset description
 - Types of available files : Gene expression levels, Bioclinical annotations of samples, GEC scores
@@ -169,6 +194,25 @@ tumor, end ??
 ![](images/meth_graph.png){.r-stretch fig-align="center"}
 
 ## CNA Analysis (MSI / MSS / unknown)
+
+- Identify MSI samples
+
+![](images/CNA_data.png){.r-stretch fig-align="center"}
+
+## CNA Analysis (MSI / MSS / unknown)
+### Proportion MSI/MSS
+
+- 4% of MSI / 96% of MSS/ 0% of unknowns
+
+![](images/CNA_MSI_count.png){.r-stretch fig-align="center"}
+
+## CNA Analysis (MSI / MSS / unknown)
+### Cox Regression results
+
+- p-value = 0.99 > 0.05
+
+![](images/CNA_cox_results.png){.r-stretch fig-align="center"}
+
 
 
 ## MSI/MSS status for all tumor samples{.smaller}
