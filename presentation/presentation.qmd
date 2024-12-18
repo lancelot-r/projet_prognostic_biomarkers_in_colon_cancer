@@ -1,0 +1,163 @@
+---
+title: "Projet"
+author: "Lancelot RAVIER, Jade BORDET, Sara MEKKAOUI, Manal BELOUARDA"
+format:
+  revealjs:
+    css: assets/styles.css
+    resources: images
+    header-includes: |
+      <script src="assets/custom.js" type="application/javascript"></script>
+      <style> .no-split {page-break-inside: avoid;} </style>
+
+      
+---
+## Outline {transition="fade" transition-speed="slow"}
+- Presentation of the institute
+- Goals of the project
+    - Benefits and stakeholders
+
+
+
+## The institute
+
+
+
+
+## Project Goal  and stakeholders
+![](images/0.png){.r-stretch fig-align="center"}
+
+
+
+## What is Epigenetics ?
+![](images/1.png){.r-stretch fig-align="center"}
+
+## What is Epigenetics ?
+![](images/2.png){.r-stretch fig-align="center"}
+
+## What is Epigenetics ?
+![](images/3.png){.r-stretch fig-align="center"}
+
+## Influence of cancer in genes expression
+
+
+
+
+
+## Gene Expression Classifier (GEC)
+
+
+
+
+## Dataset description
+
+
+## titre
+
+
+## Survival analysis GEC 3 and 4
+
+
+
+
+## Genes mutation analyses
+
+
+
+
+## Methylation of MLH1 gene
+![](images/meth_0.jpeg)
+
+
+## Steps of the analysis
+
+
+
+## Methylation dataset
+![](images/meth_data_1.png)
+
+
+## MLH1 Expression dataset
+![](images/expression.png)
+
+
+## Cleaned dataset
+
+
+## CNA Analysis (MSI / MSS / unknown)
+
+
+
+
+## Team Collaboration
+
+
+
+
+## Conclusion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Epigenetics {.smaller transition="slide" transition-speed="slow"}
+
+<img src="images/1.png" style="float: right">
+
+
+**20th century - genetics**
+
+Genetics (from the Greek “to give birth”) is the science that studies heredity and genes.
+
+1909 - genes and heredity discovery
+1953 - DNA double helix discovery
+1977 - sequencing the first DNA fragments
+2003 - complete sequencing of the human genome
+
+**$21^{th}$ century - genetics**
+
+Epigenetics (from the Greek epi: above) studies the molecular mechanisms that modify gene expression as a function of the environment.
+
+
+
+## Epigenetics regulation {.smaller transition="convex" transition-speed="slow"}
+![](images/2.png){.r-stretch fig-align="center"}
+
+
+
+## Epigenetics regulation {.smaller transition="concave" transition-speed="slow"}
+![](images/3.png){.r-stretch fig-align="center"}
+
+
+
+## Epigenetics regulation {.smaller transition="zoom" transition-speed="slow"}
+![](images/4.png){.r-stretch fig-align="center"}
+
+
+
+## Aberrant (ectopic) activations of genes in cancer
+::: {.r-stack}
+![](images/5_1.png){.absolute left=0 .fragment}
+
+![](images/5_2.png){.absolute right=0 .fragment width="300" height="450"}
+:::
+
+
+
+## Aberrant (ectopic) activations of genes in cancer
+![](images/6.png){.r-stretch fig-align="center"}
+
+
+
