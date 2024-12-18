@@ -21,15 +21,13 @@ format:
 ## The institute
 
 
-<<<<<<< HEAD
 ![](images/labo.png){.r-stretch fig-align="center"}
-=======
+
 * Supervision: Conducted by the "Epigenetic Regulations" team at the Institute for Advanced Biosciences in Grenoble.
 * Expertise: Focus on epigenetic mechanisms, particularly their role in diseases like cancer.
 * Impact: Significant contributions to personalized medicine through advanced bioinformatics and multi-omics analyses.
 
 
->>>>>>> 4fbf4d3689227b58e7f521cb1e76cc0fcc2617c5
 
 ## Project Goal and stakeholders
 ![](images/0.png){.r-stretch fig-align="center"}
@@ -59,11 +57,11 @@ format:
 
 <img src="images/3.png" style="float: right">
 
-
+tumor, end ??
+é## DNA Methylation
 
 
 ## Influence of cancer in genes expression
-
 
 ![](images/epi_cancer.jpg){.r-stretch fig-align="center"}
 
@@ -147,27 +145,26 @@ format:
 
 
 
-## Methylation of MLH1 gene
-![](images/meth_0.jpeg)
+## Methylation of MLH1 gene {.smaller transition="slide" transition-speed="slow"}
+![](images/meth_0.png)
 
 
-## Steps of the analysis
-
-
-
-## Methylation dataset
+## Methylation dataset {.smaller transition="slide" transition-speed="slow"}
 ![](images/meth_data_1.png){.r-stretch fig-align="center"}
 
 
-## MLH1 Expression dataset
+## MLH1 Expression dataset {.smaller transition="slide" transition-speed="slow"}
 ![](images/expression.png){.r-stretch fig-align="center"}
 
 
-## Cleaned dataset
+## Cleaned dataset {.smaller transition="slide" transition-speed="slow"}
 
 ![](images/final_data_meth.png){.r-stretch fig-align="center"}
 
-## Results
+## Results : {.smaller transition="slide" transition-speed="slow"}
+
+- Significant high negative correlation, decreasing regression line
+- MSI/MSS Clusters identification
 
 ![](images/meth_graph.png){.r-stretch fig-align="center"}
 
