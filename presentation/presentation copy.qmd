@@ -73,7 +73,6 @@ format:
 - Survival data limit: Set at 120 months (10 years)
 - Goal: Develop a simplified prognostic test using the GEC signature for hospital use.
 - A reduced 3-GEC signature is clinically feasible.
-![](images/survival_curve_3GEC_GSE39582.png){.absolute right=0 width="500" height="5"}
 
 ## Survival analysis GEC 4 and 3
 ![](images/survival_curve_TCGA-COAD-FPKM.png){.absolute left=0 width="500" height="500"}
