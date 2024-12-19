@@ -1,0 +1,229 @@
+---
+title: "Projet"
+author: "Lancelot RAVIER, Jade BORDET, Sara MEKKAOUI, Manal BELOUARDA"
+format:
+  revealjs:
+    css: assets/styles.css
+    resources: images
+    header-includes: |
+      <script src="assets/custom.js" type="application/javascript"></script>
+      <style> .no-split {page-break-inside: avoid;} </style>
+---
+
+## Outline {transition="fade" transition-speed="slow"}
+- Introduction
+- Presentation of the institute
+- Goals of the project
+    - Benefits and stakeholders
+- What is epigenitics ?
+- Examinating mutation 
+
+
+
+## The institute {.smaller transition="slide" transition-speed="slow"}
+
+![](images/labo.png){.r-stretch fig-align="center"}
+
+* Expertise: Epigenetic mechanisms in diseases like cancer.
+
+
+
+## Project Goal and stakeholders {.smaller transition="slide" transition-speed="slow"}
+
+- Creating tools to improve treatment personalization and accuracy in cancer treatment
+- The project will benefits both doctors and patients.
+
+![](images/stage_of_developpment.png){.absolute left=0 width="500" height="300"}
+![](images/punch.png){.absolute right=0 width="500" height="300"}
+
+
+
+
+## What is Epigenetics? {.smaller transition="slide" transition-speed="slow"}
+
+<img src="images/1.png" style="float: right">
+
+**Gene Expression Without DNA Changes**
+
+- Study of how genes are turned on or off without altering the DNA sequence.
+
+
+---
+
+## The diversity of cell types and functions in complex organisms {.smaller transition="slide" transition-speed="slow"}
+
+<img src="images/2.png" style="float: right">
+
+**Examples of Epigenetic Regulation**
+ 
+
+## How epigenetics works {.smaller transition="slide" transition-speed="slow"}
+
+<img src="images/3.png" style="float: right">
+
+
+## Cancer and genes expression
+
+![](images/epi_cancer.jpg){.r-stretch fig-align="center"}
+
+## Cancer and genes expression
+![](images/epi_cancer_2.jpg){.r-stretch fig-align="center"}
+
+
+## Survival curve (Kaplan Meier)
+
+- Represents the probability of an event, the death in our case
+- Each step represents one death
+- One cross represents a "censored data"
+
+![](images/survival_curve_explaination1.png){.absolute left=0 width="400" height="400"}
+![](images/survival_curve_explaination2.png){.absolute right=0 width="400" height="400"}
+
+
+## Log-rank test 
+
+- Used to compare two or more survival curves
+- Only applicable if the censoring of data is independent of the "death" event and if survival curves don't cross each other
+
+![](images/logrank_curve.png){.r-stretch fig-align="center"}
+
+## Gene Expression Classifier (GEC)
+
+- GEC score in our case ranges from 0 to 4
+
+![](images/exemple_GEC_curve.png){.r-stretch fig-align="center"}
+
+## Dataset description
+- Types of available files : Gene expression levels, Bioclinical annotations of samples, GEC scores
+
+![](images/1-dataset_secription.JPG){.r-stretch fig-align="center"}
+
+##  Filtering Data
+- Identify colon cancer-specific samples (T-Colon group).
+- The initial files are not cleaned.
+
+![](images/2-filtering_data.JPG){.r-stretch fig-align="center"}
+
+##  Filtering Data
+- Identify colon cancer-specific samples (T-Colon group).
+- The initial files are not cleaned.
+
+![](images/3-filteringdata.JPG){.r-stretch fig-align="center"}
+
+## Survival analysis GEC 4 and 3
+- Data Preparation:
+- Extract data from two sources:GEC annotation file, Clinical annotation file
+- Survival data limit: Set at 120 months (10 years)
+- Goal: Develop a simplified prognostic test using the GEC signature for hospital use.
+- A reduced 3-GEC signature is clinically feasible.
+![](images/survival_curve_3GEC_GSE39582.png){.absolute right=0 width="500" height="5"}
+
+## Survival analysis GEC 4 and 3
+![](images/survival_curve_TCGA-COAD-FPKM.png){.absolute left=0 width="500" height="500"}
+
+![](images/survival_curve_3GEC_TCGA-COAD-FPKM.png){.absolute right=0 width="500" height="500"}
+
+## Survival analysis GEC 4 and 3
+![](images/survival_curve_GSE17536.png){.absolute left=0 width="500" height="500"}
+
+![](images/survival_curve_3GEC_GSE17536.png){.absolute right=0 width="500" height="500"}
+
+## Survival analysis GEC 4 and 3
+![](images/survival_curve_GSE39582.png){.absolute left=0 width="500" height="500"}
+
+![](images/survival_curve_3GEC_GSE39582.png){.absolute right=0 width="500" height="500"}
+
+## Genes mutation analyses
+
+## Mutation data {.smaller transition="slide" transition-speed="slow"}
+* Objective: Identify microsatellite instability (MSI) through mutation analysis.
+<img src="images/donner_mutation.png" style="float: right">
+
+
+
+## Distribution MSI/MSS {.smaller transition="slide" transition-speed="slow"}
+
+<img src="images/distribution_msi_mss.png" style="float: right">
+
+**Identify MSI samples**
+
+## Results of cox test {.smaller transition="slide" transition-speed="slow"}
+
+**HR and p-value**
+* MSI Hazard Ratio (HR): ~0.80 (20% lower risk of death for MSI patients).
+* Result not statistically significant, requiring larger sample sizes for confirmation.
+
+![](images/resultats_test_cox_mutation.png)
+
+## Survival curves for MSI/MSS {.smaller transition="slide" transition-speed="slow"}
+
+<img src="images/curves_msi_mss.png" style="float: center">
+
+## Methylation analysis for MLH1 gene
+
+
+## Methylation dataset {.smaller transition="slide" transition-speed="slow"}
+![](images/meth_data_1.png){.r-stretch fig-align="center"}
+
+
+## MLH1 Expression dataset {.smaller transition="slide" transition-speed="slow"}
+![](images/expression.png){.r-stretch fig-align="center"}
+
+
+## Cleaned dataset {.smaller transition="slide" transition-speed="slow"}
+
+![](images/final_data_meth.png){.r-stretch fig-align="center"}
+
+## Results : {.smaller transition="slide" transition-speed="slow"}
+
+- Significant high negative correlation, decreasing regression line
+- MSI/MSS Clusters identification
+
+![](images/meth_graph.png){.r-stretch fig-align="center"}
+
+## Methylation of MLH1 gene {.smaller transition="slide" transition-speed="slow"}
+![](images/meth_0.png)
+
+
+## CNA Analysis (MSI / MSS / unknown)
+
+- Identify MSI samples
+
+![](images/CNA_data.png){.r-stretch fig-align="center"}
+
+## CNA Analysis (MSI / MSS / unknown)
+### Proportion MSI/MSS
+
+- 4% of MSI / 96% of MSS/ 0% of unknowns
+
+![](images/CNA_MSI_count.png){.r-stretch fig-align="center"}
+
+## CNA Analysis (MSI / MSS / unknown)
+### Cox Regression results
+
+- p-value = 0.99 > 0.05
+
+![](images/CNA_cox_results.png){.r-stretch fig-align="center"}
+
+
+
+## MSI/MSS status for all tumor samples{.smaller}
+- The promoter region of the MLH1 gene is methylated.
+- A mutation occurs in one of the MLH1, MSH2, MSH6, or PMS2 genes.
+- An entire DNA region containing one of these genes is lost(CNA)
+
+![](images/MSIMSS.JPG){.r-stretch fig-align="center"}
+
+## Team Collaboration
+
+
+![](images/trello.png)
+Teamwork was at the heart of our project.
+
+we employed: 
+- Python for robust data analysis.
+- Lifelines for advanced survival modeling.
+- Quarto to generate this presentation.
+
+
+## Conclusion
