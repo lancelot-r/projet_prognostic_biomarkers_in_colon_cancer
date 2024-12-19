@@ -68,11 +68,11 @@ tumor, end ??
 é## DNA Methylation
 
 
-## Influence of cancer in genes expression
+## Cancer and genes expression
 
 ![](images/epi_cancer.jpg){.r-stretch fig-align="center"}
 
-## Influence of cancer in genes expression
+## Cancer and genes expression
 ![](images/epi_cancer_2.jpg){.r-stretch fig-align="center"}
 
 
@@ -165,13 +165,7 @@ tumor, end ??
 
 <img src="images/curves_msi_mss.png" style="float: center">
 
-
-
-
-
-
-## Methylation of MLH1 gene {.smaller transition="slide" transition-speed="slow"}
-![](images/meth_0.png)
+## Methylation analysis for MLH1 gene
 
 
 ## Methylation dataset {.smaller transition="slide" transition-speed="slow"}
@@ -192,6 +186,10 @@ tumor, end ??
 - MSI/MSS Clusters identification
 
 ![](images/meth_graph.png){.r-stretch fig-align="center"}
+
+## Methylation of MLH1 gene {.smaller transition="slide" transition-speed="slow"}
+![](images/meth_0.png)
+
 
 ## CNA Analysis (MSI / MSS / unknown)
 
@@ -228,70 +226,3 @@ tumor, end ??
 
 
 ## Conclusion
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Epigenetics {.smaller transition="slide" transition-speed="slow"}
-
-<img src="images/1.png" style="float: right">
-
-
-**20th century - genetics**
-
-Genetics (from the Greek “to give birth”) is the science that studies heredity and genes.
-
-1909 - genes and heredity discovery
-1953 - DNA double helix discovery
-1977 - sequencing the first DNA fragments
-2003 - complete sequencing of the human genome
-
-**$21^{th}$ century - genetics**
-
-Epigenetics (from the Greek epi: above) studies the molecular mechanisms that modify gene expression as a function of the environment.
-
-
-
-## Epigenetics regulation {.smaller transition="convex" transition-speed="slow"}
-![](images/2.png){.r-stretch fig-align="center"}
-
-
-
-## Epigenetics regulation {.smaller transition="concave" transition-speed="slow"}
-![](images/3.png){.r-stretch fig-align="center"}
-
-
-
-## Epigenetics regulation {.smaller transition="zoom" transition-speed="slow"}
-![](images/4.png){.r-stretch fig-align="center"}
-
-
-
-## Aberrant (ectopic) activations of genes in cancer
-::: {.r-stack}
-![](images/5_1.png){.absolute left=0 .fragment}
-
-![](images/5_2.png){.absolute right=0 .fragment width="300" height="450"}
-:::
-
-
-
-## Aberrant (ectopic) activations of genes in cancer
-![](images/6.png){.r-stretch fig-align="center"}
-
-
-
