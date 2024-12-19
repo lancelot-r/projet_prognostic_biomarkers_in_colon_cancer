@@ -12,9 +12,12 @@ format:
       
 ---
 ## Outline {transition="fade" transition-speed="slow"}
+- Introduction
 - Presentation of the institute
 - Goals of the project
     - Benefits and stakeholders
+- What is epigenitics ?
+- Examinating mutation 
 
 
 
@@ -57,8 +60,7 @@ format:
 <img src="images/2.png" style="float: right">
 
 **Examples of Epigenetic Regulation**
-
-- Differences between brain and skin cells despite identical DNA.  
+ 
 
 ## How epigenetics works {.smaller transition="slide" transition-speed="slow"}
 
@@ -222,7 +224,14 @@ tumor, end ??
 
 ## Team Collaboration
 
+
 ![](images/trello.png)
+Teamwork was at the heart of our project.
+
+we employed: 
+- Python for robust data analysis.
+- Lifelines for advanced survival modeling.
+- Quarto to generate this presentation.
 
 
 ## Conclusion
