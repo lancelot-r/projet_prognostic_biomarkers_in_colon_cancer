@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="presentation_files/libs/clipboard/clipboard.min.js"></script>
-<script src="presentation_files/libs/quarto-html/tabby.min.js"></script>
-<script src="presentation_files/libs/quarto-html/popper.min.js"></script>
-<script src="presentation_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="presentation_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="presentation_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="presentation_files/libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="final_files/libs/clipboard/clipboard.min.js"></script>
+<script src="final_files/libs/quarto-html/tabby.min.js"></script>
+<script src="final_files/libs/quarto-html/popper.min.js"></script>
+<script src="final_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="final_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="final_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="final_files/libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.39">
 
   <meta name="author" content="Lancelot RAVIER, Jade BORDET, Sara MEKKAOUI, Manal BELOUARDA">
@@ -14,8 +14,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="presentation_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="presentation_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="final_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="final_files/libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -29,12 +29,12 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="presentation_files/libs/revealjs/dist/theme/quarto-bbe7401fe57d4b791b917637bb662036.css">
+  <link rel="stylesheet" href="final_files/libs/revealjs/dist/theme/quarto-bbe7401fe57d4b791b917637bb662036.css">
   <link rel="stylesheet" href="assets/styles.css">
-  <link href="presentation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="presentation_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="presentation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="presentation_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link href="final_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="final_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="final_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="final_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
       margin: 0;
@@ -145,52 +145,43 @@ Lancelot RAVIER, Jade BORDET, Sara MEKKAOUI, Manal BELOUARDA
 <h2>Outline</h2>
 <ul>
 <li>Introduction</li>
-<li>Presentation of the institute</li>
-<li>Goals of the project
-<ul>
-<li>Benefits and stakeholders</li>
-</ul></li>
-<li>What is epigenitics ?</li>
-<li>Examinating mutation</li>
+<li>Our analysis</li>
+<li>Conclusion</li>
 </ul>
 </section>
-<section id="the-institute" class="slide level2">
+<section id="the-institute" class="slide level2 smaller" data-transition="slide" data-transition-speed="slow">
 <h2>The institute</h2>
 
 <img data-src="images/labo.png" class="r-stretch quarto-figure quarto-figure-center"><ul>
-<li>Supervision: Conducted by the “Epigenetic Regulations” team at the Institute for Advanced Biosciences in Grenoble.</li>
-<li>Expertise: Focus on epigenetic mechanisms, particularly their role in diseases like cancer.</li>
-<li>Impact: Significant contributions to personalized medicine through advanced bioinformatics and multi-omics analyses.</li>
+<li>Expertise: Epigenetic mechanisms in diseases like cancer.</li>
 </ul>
 </section>
-<section id="project-goal-and-stakeholders" class="slide level2">
+<section id="project-goal-and-stakeholders" class="slide level2 smaller" data-transition="slide" data-transition-speed="slow">
 <h2>Project Goal and stakeholders</h2>
 <ul>
-<li>Define survival predicion based on GEC Score.</li>
-<li>Find a way to assist doctors in creating tools to personalized treatment plans that go beyond just the cancer’s stage of development.</li>
-<li>The project will benefits both doctors and patients.</li>
+<li>Creating tools to improve cancer treatment accuracy</li>
+<li>Benefits both doctors and patients</li>
 </ul>
-<p><img data-src="images/stage_of_developpment.png" class="absolute" style="left: 0px; width: 500px; height: 300px; "> <img data-src="images/steackholders.png" class="absolute" style="right: 0px; width: 500px; height: 300px; "></p>
+<p><img data-src="images/stage_of_developpment.png" class="absolute" style="left: 0px; width: 500px; height: 300px; "> <img data-src="images/punch.png" class="absolute" style="right: 0px; width: 500px; height: 300px; "></p>
 </section>
 <section id="what-is-epigenetics" class="slide level2 smaller" data-transition="slide" data-transition-speed="slow">
 <h2>What is Epigenetics?</h2>
 
 <img src="images/1.png" style="float: right" class="r-stretch"><p><strong>Gene Expression Without DNA Changes</strong></p>
 <ul>
-<li>Study of how genes are turned on or off without altering the DNA sequence.</li>
+<li>Study of gene methylation and DNA sequence.</li>
 </ul>
 </section>
-<section id="the-diversity-of-cell-types-and-functions-in-complex-organisms" class="slide level2 smaller" data-transition="slide" data-transition-speed="slow">
-<h2>The diversity of cell types and functions in complex organisms</h2>
+<section id="diversity-of-cell-types-and-functions-in-complex-organisms" class="slide level2 smaller" data-transition="slide" data-transition-speed="slow">
+<h2>Diversity of cell types and functions in complex organisms</h2>
 
 <img src="images/2.png" style="float: right" class="r-stretch"><p><strong>Examples of Epigenetic Regulation</strong></p>
 </section>
 <section id="how-epigenetics-works" class="slide level2 smaller" data-transition="slide" data-transition-speed="slow">
 <h2>How epigenetics works</h2>
 
-<img src="images/3.png" style="float: right" class="r-stretch"><p>tumor, end ?? é## DNA Methylation</p>
-</section>
-<section id="cancer-and-genes-expression" class="slide level2">
+<img src="images/3.png" style="float: right" class="r-stretch"></section>
+<section id="cancer-and-genes-expression" class="slide level2 smaller" data-transition="slide" data-transition-speed="slow">
 <h2>Cancer and genes expression</h2>
 
 <img data-src="images/epi_cancer.jpg" class="r-stretch quarto-figure quarto-figure-center"></section>
@@ -198,24 +189,24 @@ Lancelot RAVIER, Jade BORDET, Sara MEKKAOUI, Manal BELOUARDA
 <h2>Cancer and genes expression</h2>
 
 <img data-src="images/epi_cancer_2.jpg" class="r-stretch quarto-figure quarto-figure-center"></section>
-<section id="survival-curve-kaplan-meier" class="slide level2">
-<h2>Survival curve (Kaplan Meier)</h2>
+<section id="survival-curves-kaplan-meier" class="slide level2 smaller" data-transition="slide" data-transition-speed="slow">
+<h2>Survival curves (Kaplan Meier)</h2>
 <ul>
-<li>Represents the probability of an event, the death in our case</li>
-<li>Each step represents one death</li>
-<li>One cross represents a “censored data”</li>
+<li>Represents the death probability</li>
+<li>Each step -&gt; one death</li>
+<li>Each cross -&gt; censored data</li>
 </ul>
 <p><img data-src="images/survival_curve_explaination1.png" class="absolute" style="left: 0px; width: 400px; height: 400px; "> <img data-src="images/survival_curve_explaination2.png" class="absolute" style="right: 0px; width: 400px; height: 400px; "></p>
 </section>
-<section id="log-rank-test" class="slide level2">
+<section id="log-rank-test" class="slide level2 smaller" data-transition="slide" data-transition-speed="slow">
 <h2>Log-rank test</h2>
 <ul>
 <li>Used to compare two or more survival curves</li>
-<li>Only applicable if the censoring of data is independent of the “death” event and if survival curves don’t cross each other</li>
+<li>Only applicable if the censoring of data and “death” event is independent, and if survival curves don’t cross each other</li>
 </ul>
 
 <img data-src="images/logrank_curve.png" class="r-stretch quarto-figure quarto-figure-center"></section>
-<section id="gene-expression-classifier-gec" class="slide level2">
+<section id="gene-expression-classifier-gec" class="slide level2 smaller" data-transition="slide" data-transition-speed="slow">
 <h2>Gene Expression Classifier (GEC)</h2>
 <ul>
 <li>GEC score in our case ranges from 0 to 4</li>
@@ -225,7 +216,7 @@ Lancelot RAVIER, Jade BORDET, Sara MEKKAOUI, Manal BELOUARDA
 <section id="dataset-description" class="slide level2">
 <h2>Dataset description</h2>
 <ul>
-<li>Types of available files : Gene expression levels, Bioclinical annotations of samples, GEC scores</li>
+<li>Files type : Gene expression levels, Bioclinical annotations of samples, GEC scores</li>
 </ul>
 
 <img data-src="images/1-dataset_secription.JPG" class="r-stretch quarto-figure quarto-figure-center"></section>
@@ -245,12 +236,10 @@ Lancelot RAVIER, Jade BORDET, Sara MEKKAOUI, Manal BELOUARDA
 </ul>
 
 <img data-src="images/3-filteringdata.JPG" class="r-stretch quarto-figure quarto-figure-center"></section>
-<section id="survival-analysis-gec-4-and-3" class="slide level2">
+<section id="survival-analysis-gec-4-and-3" class="slide level2" data-transition="slide" data-transition-speed="slow">
 <h2>Survival analysis GEC 4 and 3</h2>
 <ul>
-<li>Data Preparation:</li>
-<li>Extract data from two sources:GEC annotation file, Clinical annotation file</li>
-<li>Survival data limit: Set at 120 months (10 years)</li>
+<li>Extract data from two sources: GEC annotation file, Clinical annotation file</li>
 <li>Goal: Develop a simplified prognostic test using the GEC signature for hospital use.</li>
 <li>A reduced 3-GEC signature is clinically feasible. <img data-src="images/survival_curve_3GEC_GSE39582.png" class="absolute" style="right: 0px; width: 500px; height: 5px; "></li>
 </ul>
@@ -270,8 +259,8 @@ Lancelot RAVIER, Jade BORDET, Sara MEKKAOUI, Manal BELOUARDA
 <p><img data-src="images/survival_curve_GSE39582.png" class="absolute" style="left: 0px; width: 500px; height: 500px; "></p>
 <p><img data-src="images/survival_curve_3GEC_GSE39582.png" class="absolute" style="right: 0px; width: 500px; height: 500px; "></p>
 </section>
-<section id="genes-mutation-analyses" class="slide level2">
-<h2>Genes mutation analyses</h2>
+<section id="genes-mutation-analysis" class="slide level2">
+<h2>Genes mutation analysis</h2>
 </section>
 <section id="mutation-data" class="slide level2 smaller" data-transition="slide" data-transition-speed="slow">
 <h2>Mutation data</h2>
@@ -286,7 +275,7 @@ Lancelot RAVIER, Jade BORDET, Sara MEKKAOUI, Manal BELOUARDA
 </section>
 <section id="results-of-cox-test" class="slide level2 smaller" data-transition="slide" data-transition-speed="slow">
 <h2>Results of cox test</h2>
-<p><strong>HR and p-value</strong> * MSI Hazard Ratio (HR): ~0.80 (20% lower risk of death for MSI patients). * Result not statistically significant, requiring larger sample sizes for confirmation.</p>
+<p><strong>HR and p-value</strong> * MSI Hazard Ratio (HR): ~0.80 (20% lower death risk for MSI patients). * Non significant results, requiring larger sample sizes for confirmation.</p>
 
 <img data-src="images/resultats_test_cox_mutation.png" class="r-stretch"></section>
 <section id="survival-curves-for-msimss" class="slide level2 smaller" data-transition="slide" data-transition-speed="slow">
@@ -355,10 +344,10 @@ Lancelot RAVIER, Jade BORDET, Sara MEKKAOUI, Manal BELOUARDA
 <section id="team-collaboration" class="slide level2">
 <h2>Team Collaboration</h2>
 <p><img data-src="images/trello.png"> Teamwork was at the heart of our project.</p>
-<p>we employed: - Python for robust data analysis. - Lifelines for advanced survival modeling. - Quarto to generate this presentation.</p>
+<p>Support : - Python for data analysis. - Lifelines package for advanced survival modeling. - Quarto to generate RevealJS presentation.</p>
 </section>
-<section id="conclusion" class="slide level2">
-<h2>Conclusion</h2>
+<section id="thanks-you-for-the-audience" class="slide level2">
+<h2>Thanks you for the audience</h2>
 
 </section>
     </div>
@@ -369,19 +358,19 @@ Lancelot RAVIER, Jade BORDET, Sara MEKKAOUI, Manal BELOUARDA
 </div></div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="presentation_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="final_files/libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="presentation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="final_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="final_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="final_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="final_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="final_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="presentation_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="final_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="final_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="final_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="final_files/libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>

@@ -12,11 +12,8 @@ format:
 
 ## Outline {transition="fade" transition-speed="slow"}
 - Introduction
-- Presentation of the institute
-- Goals of the project
-    - Benefits and stakeholders
-- What is epigenitics ?
-- Examinating mutation 
+- Our analysis
+- Conclusion
 
 
 
@@ -30,8 +27,8 @@ format:
 
 ## Project Goal and stakeholders {.smaller transition="slide" transition-speed="slow"}
 
-- Creating tools to improve treatment personalization and accuracy in cancer treatment
-- The project will benefits both doctors and patients.
+- Creating tools to improve cancer treatment accuracy
+- Benefits both doctors and patients
 
 ![](images/stage_of_developpment.png){.absolute left=0 width="500" height="300"}
 ![](images/punch.png){.absolute right=0 width="500" height="300"}
@@ -45,12 +42,12 @@ format:
 
 **Gene Expression Without DNA Changes**
 
-- Study of how genes are turned on or off without altering the DNA sequence.
+- Study of gene methylation and DNA sequence.
 
 
 ---
 
-## The diversity of cell types and functions in complex organisms {.smaller transition="slide" transition-speed="slow"}
+## Diversity of cell types and functions in complex organisms {.smaller transition="slide" transition-speed="slow"}
 
 <img src="images/2.png" style="float: right">
 
@@ -62,7 +59,7 @@ format:
 <img src="images/3.png" style="float: right">
 
 
-## Cancer and genes expression
+## Cancer and genes expression {.smaller transition="slide" transition-speed="slow"}
 
 ![](images/epi_cancer.jpg){.r-stretch fig-align="center"}
 
@@ -70,31 +67,31 @@ format:
 ![](images/epi_cancer_2.jpg){.r-stretch fig-align="center"}
 
 
-## Survival curve (Kaplan Meier)
+## Survival curves (Kaplan Meier) {.smaller transition="slide" transition-speed="slow"}
 
-- Represents the probability of an event, the death in our case
-- Each step represents one death
-- One cross represents a "censored data"
+- Represents the death probability
+- Each step -> one death
+- Each cross -> censored data
 
 ![](images/survival_curve_explaination1.png){.absolute left=0 width="400" height="400"}
 ![](images/survival_curve_explaination2.png){.absolute right=0 width="400" height="400"}
 
 
-## Log-rank test 
+## Log-rank test {.smaller transition="slide" transition-speed="slow"}
 
 - Used to compare two or more survival curves
-- Only applicable if the censoring of data is independent of the "death" event and if survival curves don't cross each other
+- Only applicable if the censoring of data and "death" event is independent, and if survival curves don't cross each other
 
 ![](images/logrank_curve.png){.r-stretch fig-align="center"}
 
-## Gene Expression Classifier (GEC)
+## Gene Expression Classifier (GEC) {.smaller transition="slide" transition-speed="slow"}
 
 - GEC score in our case ranges from 0 to 4
 
 ![](images/exemple_GEC_curve.png){.r-stretch fig-align="center"}
 
 ## Dataset description
-- Types of available files : Gene expression levels, Bioclinical annotations of samples, GEC scores
+- Files type : Gene expression levels, Bioclinical annotations of samples, GEC scores
 
 ![](images/1-dataset_secription.JPG){.r-stretch fig-align="center"}
 
@@ -110,10 +107,8 @@ format:
 
 ![](images/3-filteringdata.JPG){.r-stretch fig-align="center"}
 
-## Survival analysis GEC 4 and 3
-- Data Preparation:
-- Extract data from two sources:GEC annotation file, Clinical annotation file
-- Survival data limit: Set at 120 months (10 years)
+## Survival analysis GEC 4 and 3 {transition="slide" transition-speed="slow"}
+- Extract data from two sources: GEC annotation file, Clinical annotation file
 - Goal: Develop a simplified prognostic test using the GEC signature for hospital use.
 - A reduced 3-GEC signature is clinically feasible.
 ![](images/survival_curve_3GEC_GSE39582.png){.absolute right=0 width="500" height="5"}
@@ -133,7 +128,7 @@ format:
 
 ![](images/survival_curve_3GEC_GSE39582.png){.absolute right=0 width="500" height="500"}
 
-## Genes mutation analyses
+## Genes mutation analysis
 
 ## Mutation data {.smaller transition="slide" transition-speed="slow"}
 * Objective: Identify microsatellite instability (MSI) through mutation analysis.
@@ -150,8 +145,8 @@ format:
 ## Results of cox test {.smaller transition="slide" transition-speed="slow"}
 
 **HR and p-value**
-* MSI Hazard Ratio (HR): ~0.80 (20% lower risk of death for MSI patients).
-* Result not statistically significant, requiring larger sample sizes for confirmation.
+* MSI Hazard Ratio (HR): ~0.80 (20% lower death risk for MSI patients).
+* Non significant results, requiring larger sample sizes for confirmation.
 
 ![](images/resultats_test_cox_mutation.png)
 
@@ -220,10 +215,10 @@ format:
 ![](images/trello.png)
 Teamwork was at the heart of our project.
 
-we employed: 
-- Python for robust data analysis.
-- Lifelines for advanced survival modeling.
-- Quarto to generate this presentation.
+Support : 
+- Python for data analysis.
+- Lifelines package for advanced survival modeling.
+- Quarto to generate RevealJS presentation.
 
 
-## Conclusion
+## Thanks you for the audience
